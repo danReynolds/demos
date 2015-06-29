@@ -36,6 +36,6 @@ AR_x86_64-unknown-linux-gnu = None
 AR_x86_64_unknown_linux_gnu = None
 HOST_AR = None
 AR = None
-running: "ar" "crus" "/home/dan/coding/personal/demos/rust_demo_2/target/debug/build/demo_2-454c251937ff4553/out/libprint.a" "/home/dan/coding/personal/demos/rust_demo_2/target/debug/build/demo_2-454c251937ff4553/out/src/add_one.o"
+running: "ar" "crus" "/home/dan/coding/personal/demos/rust_demo_2/target/debug/build/demo_2-454c251937ff4553/out/libadd.a" "/home/dan/coding/personal/demos/rust_demo_2/target/debug/build/demo_2-454c251937ff4553/out/src/add_one.o"
 cargo:rustc-link-search=native=/home/dan/coding/personal/demos/rust_demo_2/target/debug/build/demo_2-454c251937ff4553/out
-cargo:rustc-link-lib=static=print
+cargo:rustc-link-lib=static=add
