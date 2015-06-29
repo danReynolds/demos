@@ -1,0 +1,11 @@
+[package]
+name = "demo_2"
+version = "0.1.0"
+authors = ["danReynolds <fnetma@hotmail.com>"]
+build = "build.rs"
+
+[dependencies]
+libc = "0.1"
+
+[build-dependencies]
+gcc = "0.3"
